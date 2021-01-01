@@ -7,7 +7,7 @@ public class Plane extends Transport {
         super(model, weight, maxspeed);
         this.amountOfPeople=amountOfPeople;
     }
-    public void amountOfPeopleOnAPlane(){
+    public void printamountOfPeopleOnAPlane(){
         System.out.println("Amount of people on a plane:"+amountOfPeople);
     }
 }

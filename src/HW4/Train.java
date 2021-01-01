@@ -7,7 +7,7 @@ public class Train extends Transport {
         this.amountOfContainers=amountOfContainers;
     }
 
-    public void setAmountOfContainersOnATrain(){
+    public void printAmountOfContainersOnATrain(){
         System.out.println("The train has : "+amountOfContainers+" containers");
     }
 }

@@ -11,7 +11,7 @@ public class Transport {
         this.maxspeed = maxspeed;
     }
 
-    public void characteristics() {
+    public void printcharacteristics() {
         System.out.println("Characteristics of a transport: Model: " + model + " Weight " + weight + " Maxspeed " + maxspeed);
     }
 }
