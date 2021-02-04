@@ -1,4 +1,7 @@
-package HW4;
+package Hw4.TransportPearson;
+
+import Hw4.TransportPearson.Plane;
+import Hw4.TransportPearson.Train;
 
 public class TransportMain {
     public static void main(String[] args) {
