@@ -1,4 +1,4 @@
-package HW4;
+package Hw4.TransportPearson;
 
 public class Train extends Transport {
     private final int amountOfContainers;

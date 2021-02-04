@@ -1,4 +1,6 @@
-package HW4;
+package Hw4.TransportPearson;
+
+import Hw4.TransportPearson.Pearson;
 
 public class PearsonMain {
     public static void main(String[] args) {
