@@ -10,6 +10,7 @@ public class Tax {
         System.out.println("Tax coefficient :" + taxK);
         System.out.println("S= "+S);
     }
+
     public double taxWorth() {
         double l=taxK*S;
         return l;

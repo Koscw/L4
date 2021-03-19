@@ -10,7 +10,7 @@ public class ResidentialProperty extends Tax {
     @Override
     public double taxWorth() {
 
-        double q = super.taxWorth()-(taxK * S * 0.01 * subsidies);
+        double q = super.taxWorth()-subsidies;
         return (int) q;
     }
 }

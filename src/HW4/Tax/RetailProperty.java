@@ -8,15 +8,12 @@ public class RetailProperty extends Tax {
         this.earnings = earnings;
     }
 
+    @Override
     public double taxWorth() {
         if (earnings < 100) {
-            System.out.println("No tax included");
-            return 0;
-
-
+           return 0;
         } else {
-            double q = super.taxWorth();
-            return q;
+            return super.taxWorth();
         }
 
     }
